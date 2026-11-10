@@ -1,0 +1,23 @@
+# Python 3.10.21 (entorno "tesis_ctgan")
+# Versiones de la Tabla A10 de la tesis
+pandas==2.3.3
+numpy==1.26.4
+scikit-learn==1.7.2
+xgboost==3.2.0
+lightgbm==4.7.0
+catboost==1.2.10
+statsmodels==0.15.0
+shap==0.49.1
+lime==0.2.0.1
+matplotlib==3.10.9
+
+# Otras dependencias
+scipy
+holidays
+openpyxl
+xlrd
+notebook
+
+# Solo para el entorno seguro (generación de la base sintética)
+ctgan
+torch
